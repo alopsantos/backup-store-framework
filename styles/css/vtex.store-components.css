@@ -39,4 +39,6 @@
 .container :global(.vtex-button){
     background-color: green;
     border:none;
+    max-width: 200px;
+    margin: 10px 0;
 }
