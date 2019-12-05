@@ -33,3 +33,6 @@
 .infoCardContainer--metal{
     background-color: #e1e1e1;
 }
+.sliderLayoutContainer{
+    margin-top: 10px !important;
+}
