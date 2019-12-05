@@ -1,7 +1,36 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      
+      "rich-text",
+      "info-card#button-right",
+      "info-card#button-left"
     ]
+  },
+  "rich-text": {
+    "props": {
+      "text": "*Estacao Store*",
+      "textPosition": "CENTER",
+      "color": "action-primary"
+    }
+  },
+  "info-card#button-right": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage Pink",
+      "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+      "callToActionMode": "button",
+      "callToActionText": "Explore",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#button-left": {
+    "props": {
+      "isFullModeStyle": true,
+      "imageUrl": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/188542/O%20Melhor%20da%20Estacao%20Para%20Suas%20festas%20de%20fim%20de%20ano.jpg?v=637107281394370000",
+      
+    }
   }
 }
