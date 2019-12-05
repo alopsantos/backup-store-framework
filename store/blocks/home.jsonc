@@ -1,18 +1,40 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text",
+      "layout-flex-row",
+      "layout-flex-col",
       "info-card#button-right",
       "info-card#button-left"
     ]
   },
-  "rich-text": {
+  "flex-layout.row": {
+    "children": [
+      "info-card",
+      "rich-text"
+    ]
+  },
+  "info-card#rethink": {
+    "props": {
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
+      "isFullModeStyle": true,
+      "headline": "Time to rethink your kitchen",
+      "callToActionText": "Discover",
+      "textPosition": "center"
+    }
+  },
+  "rich-text#deletar": {
+    "props": {
+      "text": "I'll be deleted soon"
+    }
+  },
+  "layout-flex-col": {
     "props": {
       "text": "*Estacao Store*",
       "textPosition": "CENTER",
       "color": "action-primary"
     }
   },
+
   "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
@@ -24,9 +46,10 @@
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
-      "blockClass": "vintage"     //  <------------
+      "blockClass": "vintage" //  <------------
     }
-  },"info-card#button-left": {
+  },
+  "info-card#button-left": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "left",
@@ -37,7 +60,7 @@
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center",
-      "blockClass":"metal"
+      "blockClass": "metal"
     }
   }
 }
