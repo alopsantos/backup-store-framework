@@ -58,7 +58,8 @@
     "props" :{
       "InitialSelectionEnum": "empty",
       "showValueNameForImageVariation": false,
-      "DisplayMode": "selecionar"
+      "DisplayMode": "selecionar",
+      "showVariationsErrorMessage": "true"
     }
   }
  }
