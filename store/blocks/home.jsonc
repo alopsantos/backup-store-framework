@@ -2,8 +2,7 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "info-card#button-right",
-      "info-card#button-left"
+      "info-card#button-right"
     ]
   },
   "rich-text": {
@@ -24,13 +23,6 @@
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
-    }
-  },
-  "info-card#button-left": {
-    "props": {
-      "isFullModeStyle": true,
-      "imageUrl": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/188542/O%20Melhor%20da%20Estacao%20Para%20Suas%20festas%20de%20fim%20de%20ano.jpg?v=637107281394370000",
-      
     }
   }
 }
