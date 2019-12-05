@@ -27,9 +27,7 @@
     ],
     "props": {
       "logoWithLink":30,
-      "displayMode": "logo",
-      "InitialSelectionEnum": "empty",
-      "showValueNameForImageVariation": true
+      "displayMode": "logo"
     }
   },
   "flex-layout.col#right": {
@@ -52,7 +50,9 @@
     "children": [
       "sku-selector",
       "product-quantity"
-    ],
+    ]
+  },
+  "sku-selector": {
     "props" :{
       "InitialSelectionEnum": "empty",
       "displayMode": "default",
