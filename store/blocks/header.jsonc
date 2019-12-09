@@ -35,12 +35,13 @@
         "children": [
             "logo",
             "header-spacer",
+            "search-bar",
             "minicart",
             "login"
         ],
         "props": {
-            "sticky": true,
             "inverted": true,
+            "sticky": true,
             "fullWidth": false
         }
     },
@@ -61,7 +62,9 @@
             "search-bar"
         ],
         "props": {
-            "sticky": true
+            "sticky": true,
+            "showIconProfile" : true,
+            "iconLabel": ""
         }
     },
     "login":{
