@@ -18,15 +18,15 @@
     },
     "tab-list.item#home1": {
         "props": {
-            "text": "Major Appliances",
+            "label": "Major Appliances",
             "tabId": "majorAppliances",
             "defaultActiveTab": true
         }
     },
     "tab-list.item#home2": {
         "props": {
-            "text": "Electronics",
-            "tabId": "electronics"
+            "tabId": "electronics",
+            "label": "Electronics"
         }
     },
     "tab-content#home": {
@@ -37,49 +37,34 @@
     },
     "tab-content.item#home1": {
         "children": [
-            "rich-text#home1",
-            "rich-text#home2"
+            "rich-text#home1"
         ],
         "props": {
-            "tabId": "home1",
+            "tabId": "majorAppliances",
             "defaultActiveTab" : true
         }
     },
     "tab-content.item#home2": {
         "children": [
-            "rich-text#home1",
             "rich-text#home2"
         ],
         "props": {
+            "tabId": "electronics"
+        }
+    },
+    "rich-text#home1": {
+        "props": {
+            "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
+            "textPosition": "CENTER",
+            "font": "t-heading-3"
+        }
+    },
+    "rich-text#home2": {
+        "props": {
+            "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
+            "textPosition": "CENTER",
+            "font": "t-heading-3",
             "tabId": "home2"
-        }
-    },
-    "rich-text#home1": {
-        "props": {
-            "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
-            "textPosition": "CENTER",
-            "font": "t-heading-3"
-        }
-    },
-    "rich-text#home2": {
-        "props": {
-            "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
-            "textPosition": "CENTER",
-            "font": "t-heading-3"
-        }
-    },
-    "rich-text#home1": {
-        "props": {
-            "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
-            "textPosition": "CENTER",
-            "font": "t-heading-3"
-        }
-    },
-    "rich-text#home2": {
-        "props": {
-            "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
-            "textPosition": "CENTER",
-            "font": "t-heading-3"
         }
     }
 }
