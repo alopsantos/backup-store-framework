@@ -14,11 +14,11 @@
     },
     "search-result-layout.customQuery": {
         "props": {
+            "mapField": "ft",
             "orderByField": "OrderByReleaseDateDESC",
             "hideUnavailableItems": true,
             "maxItemsPerPage": 8,
-            "queryField": "Blue Top Retro Camera",
-            "mapField": "ft"
+            "queryField": "Blue Top Retro Camera"
         }
     }
 }
