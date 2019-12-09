@@ -9,7 +9,7 @@
         "props": {
             "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg",
             "alt": "Coffee Makers Collection",
-            "maxWidth": "100%"
+            "minWidth": "100%"
         }
     },
     "search-result-layout.customQuery": {
