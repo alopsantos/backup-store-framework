@@ -7,9 +7,9 @@
     },
     "image#landingbanner": {
         "props": {
-            "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg",
             "alt": "Coffee Makers Collection",
-            "minWidth": "100%"
+            "minWidth": "100%",
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg"
         }
     },
     "search-result-layout.customQuery": {
