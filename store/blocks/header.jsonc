@@ -51,7 +51,8 @@
             "logo",
             "header-spacer",
             "minicart",
-            "login"
+            "login",
+            "drawer"
         ],
         "props": {
             "sticky": true,
@@ -93,11 +94,6 @@
             "header-spacer",
             "vtex.menu@2.x:menu#categories",
             "header-spacer"
-        ]
-    },
-    "header-row#menu-mobile": {
-        "children": [
-            "drawer"
         ]
     }
 }
