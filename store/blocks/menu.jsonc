@@ -11,7 +11,7 @@
     },
     "menu-item#major-appliances":{
         "blocks": [
-            "vtex.menu@2.x:submenu#major"
+            "vtex.menu@2.x:submenu#major-appliances"
         ],
         "props":{
             "type": "custom",
@@ -23,7 +23,7 @@
             }
         }
     },
-    "vtex.menu@2.x:submenu#major":{
+    "vtex.menu@2.x:submenu#major-appliances":{
         "children": [
             "vtex.menu@2.x:menu#major"
         ]
@@ -38,7 +38,7 @@
     },
     "menu-item#small-appliances":{
         "blocks": [
-            "vtex.menu@2.x:submenu#small"
+            "vtex.menu@2.x:submenu#small-appliances"
         ],
         "props":{
             "type": "custom",
@@ -50,7 +50,7 @@
             }
         }
     },
-    "vtex.menu@2.x:submenu#small":{
+    "vtex.menu@2.x:submenu#small-appliances":{
         "children": [
             "vtex.menu@2.x:menu#small"
         ]
