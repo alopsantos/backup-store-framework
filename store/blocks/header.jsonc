@@ -95,5 +95,10 @@
             "vtex.menu@2.x:menu#categories",
             "header-spacer"
         ]
+    },
+    "drawer":{
+        "children": [
+            "vtex.menu@2.x:menu#categories"
+        ]
     }
 }
