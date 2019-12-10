@@ -45,6 +45,9 @@
                 "text": "Small Appianes",
                 "type": "internal",
                 "noFllow": true
+            },
+            "items":{
+                "id": "vtex.menu@2.x:submenu#major"
             }
         }
     },
