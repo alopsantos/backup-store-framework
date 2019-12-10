@@ -36,7 +36,7 @@
     },
     "menu-item#small-appliances":{
         "blocks": [
-            "vtex.menu@2.x:submenu#small-appliances"
+            "vtex.menu@2.x:submenu#small"
         ],
         "props":{
             "type": "custom",
@@ -48,7 +48,7 @@
             }
         }
     },
-    "vtex.menu@2.x:submenu#small-appliances":{
+    "vtex.menu@2.x:submenu#small":{
         "children": [
             "vtex.menu@2.x:menu#small"
         ]
