@@ -11,19 +11,17 @@
     },
     "menu-item#major-appliances":{
         "blocks": [
-            "vtex.menu@2.x:submenu#major-appliances"
+            "vtex.menu@2.x:submenu#major"
         ],
         "props":{
-            "type": "custom",
-            "iconId": null,
             "itemProps":{
                 "text": "Major Appliances",
                 "type": "internal",
-                "noFllow": true
+                "href": "#"
             }
         }
     },
-    "vtex.menu@2.x:submenu#major-appliances":{
+    "vtex.menu@2.x:submenu#major":{
         "children": [
             "vtex.menu@2.x:menu#major"
         ]
