@@ -30,9 +30,9 @@
     },
     "vtex.menu@2.x:menu#major":{
         "children":[
-            "menu-item#mixers",
-            "menu-item#toasters",
-            "menu-item#coffee"
+            "menu-item#refrigerators",
+            "menu-item#ovens",
+            "menu-item#washers"
         ],
         "props":{"orientation": "vertical"}
     }
