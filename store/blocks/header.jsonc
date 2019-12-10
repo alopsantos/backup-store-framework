@@ -62,9 +62,7 @@
             "search-bar"
         ],
         "props": {
-            "sticky": true,
-            "showIconProfile": true,
-            "iconLabel": ""
+            "sticky": true
         }
     },
     "login": {
