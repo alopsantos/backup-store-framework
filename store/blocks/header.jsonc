@@ -48,11 +48,11 @@
     },
     "header-row#main-mobile": {
         "children": [
+            "drawer",
             "logo",
             "header-spacer",
             "minicart",
-            "login",
-            "drawer"
+            "login"
         ],
         "props": {
             "sticky": true,
@@ -94,11 +94,6 @@
             "header-spacer",
             "vtex.menu@2.x:menu#categories",
             "header-spacer"
-        ]
-    },
-    "drawer":{
-        "children": [
-            "vtex.menu@2.x:menu#categories"
         ]
     }
 }
