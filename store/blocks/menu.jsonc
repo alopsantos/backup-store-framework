@@ -10,23 +10,21 @@
       }
     },
     "menu-item#major-appliances":{
-        "blocks": [
-            "vtex.menu@2.x:submenu#major"
-        ],
         "props":{
             "itemProps":{
                 "text": "Major Appliances",
                 "type": "internal",
                 "href": "#"
             }
-        }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#major"]
     },
     "vtex.menu@2.x:submenu#major":{
         "children": [
-            "vtex.menu@2.x:menu#major"
+            "vtex.menu@2.x:menu#major-appliances"
         ]
     },
-    "vtex.menu@2.x:menu#major":{
+    "vtex.menu@2.x:menu#major-appliances":{
         "children":[
             "menu-item#refrigerators",
             "menu-item#ovens",
@@ -50,10 +48,10 @@
     },
     "vtex.menu@2.x:submenu#small":{
         "children": [
-            "vtex.menu@2.x:menu#small"
+            "vtex.menu@2.x:menu#small-appliances"
         ]
     },
-    "vtex.menu@2.x:menu#small":{
+    "vtex.menu@2.x:menu#small-appliances":{
         "children":[
             "menu-item#mixers",
             "menu-item#toasters",
