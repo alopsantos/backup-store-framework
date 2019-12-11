@@ -19,7 +19,8 @@
         "categoryId": 2,
         "text": "Small Appliances"
       }
-    }
+    },
+    "blocks":["vtex.menu@2.x:submenu#small"]
   },
   "menu-item#electronics": {
     "props": {
@@ -39,7 +40,8 @@
         "categoryId": 4,
         "text": "Refrigerators"
       }
-    }
+    },
+    "blocks":["vtex.menu@2.x:submenu#electronics"]
   },
   "menu-item#ovens": {
     "props": {
