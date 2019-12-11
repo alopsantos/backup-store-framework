@@ -4,6 +4,17 @@
             "flex-layout.row#major"
         ]
     },
+    "flex-layout.row#major": {
+        "children": [
+            "flex-layout.col#menu",
+            "flex-layout.col#img"
+        ]
+    },
+    "flex-layout.col#menu": {
+        "children": [
+            "vtex.menu@2.x:menu#major"
+        ]
+    },
     "vtex.menu@2.x:menu#major": {
         "props": {
             "orientation": "vertical"
