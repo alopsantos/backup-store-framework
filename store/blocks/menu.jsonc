@@ -21,10 +21,10 @@
     },
     "vtex.menu@2.x:submenu#major":{
         "children": [
-            "vtex.menu@2.x:menu#major-appliances"
+            "vtex.menu@2.x:menu#major"
         ]
     },
-    "vtex.menu@2.x:menu#major-appliances":{
+    "vtex.menu@2.x:menu#major":{
         "children":[
             "menu-item#refrigerators",
             "menu-item#ovens",
@@ -33,9 +33,6 @@
         "props":{"orientation": "vertical"}
     },
     "menu-item#small-appliances":{
-        "blocks": [
-            "vtex.menu@2.x:submenu#small"
-        ],
         "props":{
             "type": "custom",
             "iconId": null,
@@ -44,14 +41,17 @@
                 "type": "internal",
                 "noFllow": true
             }
-        }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#small"
+        ]
     },
     "vtex.menu@2.x:submenu#small":{
         "children": [
-            "vtex.menu@2.x:menu#small-appliances"
+            "vtex.menu@2.x:menu#small"
         ]
     },
-    "vtex.menu@2.x:menu#small-appliances":{
+    "vtex.menu@2.x:menu#small":{
         "children":[
             "menu-item#mixers",
             "menu-item#toasters",
@@ -60,9 +60,6 @@
         "props":{"orientation": "vertical"}
     },
     "menu-item#electronics":{
-        "blocks": [
-            "vtex.menu@2.x:submenu#electronics"
-        ],
         "props":{
             "type": "custom",
             "iconId": null,
@@ -71,7 +68,10 @@
                 "type": "internal",
                 "noFllow": true
             }
-        }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#electronics"
+        ]
     },
     "vtex.menu@2.x:submenu#electronics":{
         "children": [
