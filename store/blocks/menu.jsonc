@@ -1,85 +1,134 @@
 {
     "vtex.menu@2.x:menu#categories": {
-      "children": [
-        "menu-item#major-appliances",
-        "menu-item#small-appliances",
-        "menu-item#electronics"
-      ],  
-      "props":{
-        "orientation": "horizontal"
-      }
+        "children": [
+            "menu-item#major-appliances",
+            "menu-item#small-appliances",
+            "menu-item#electronics"
+        ],
+        "props": {
+            "orientation": "horizontal"
+        }
     },
-    "menu-item#major-appliances":{
-        "blocks": ["vtex.menu@2.x:submenu#major"],
-        "props":{
-            "itemProps":{
+    "menu-item#major-appliances": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#major"
+        ],
+        "props": {
+            "itemProps": {
                 "text": "Major Appliances",
                 "type": "internal",
                 "href": "#"
             }
         }
     },
-    "menu-item#small-appliances":{
-        "blocks": ["vtex.menu@2.x:submenu#small"],
-        "props":{
+    "menu-item#small-appliances": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#small"
+        ],
+        "props": {
             "type": "custom",
             "iconId": null,
-            "itemProps":{
+            "itemProps": {
                 "text": "Small Appianes",
                 "type": "internal",
                 "noFllow": true
             }
         }
     },
-    "menu-item#electronics":{
-        "blocks": ["vtex.menu@2.x:submenu#electronics"],
-        "props":{
+    "menu-item#electronics": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#electronics"
+        ],
+        "props": {
             "type": "custom",
             "iconId": null,
-            "itemProps":{
+            "itemProps": {
                 "text": "Electronics",
                 "type": "internal",
                 "noFllow": true
             }
         }
     },
-    "vtex.menu@2.x:menu#major":{
-        "props":{"orientation": "vertical"},
-        "children":[
+    "vtex.menu@2.x:submenu#major": {
+        "children": [
+            "flex-layout.row#major"
+        ]
+    },
+    "vtex.menu@2.x:submenu#small": {
+        "children": [
+            "vtex.menu@2.x:menu#small"
+        ]
+    },
+    "vtex.menu@2.x:submenu#electronics": {
+        "children": [
+            "vtex.menu@2.x:menu#electronics"
+        ]
+    },
+    "flex-layout.row#major": {
+        "children": [
+            "flex-layout.col#menu",
+            "flex-layout.col#img"
+        ]
+    },
+    "flex-layout.col#menu": {
+        "children": [
+            "vtex.menu@2.x:menu#major"
+        ]
+    },
+    "vtex.menu@2.x:menu#major": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
             "menu-item#refrigerators",
             "menu-item#ovens",
             "menu-item#washers"
-        ]        
+        ]
     },
-    "vtex.menu@2.x:menu#small":{
-        "props":{"orientation": "vertical"},
-        "children":[
+    "flex-layout.col#img": {
+        "children": [
+            "image#menu",
+            "rich-text#header"
+        ],
+        "props": {
+            "paddingRight": 4,
+            "horizontalAlign": "right"
+        }
+    },
+    "image#menu": {
+        "props": {
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/menu-washer.jpg",
+            "link": {
+                "url": "/small-appliances/coffee-makers"
+            },
+            "alt": "Coffee Makers Collection",
+            "maxWidth": "200px"
+        }
+    },
+    "rich-text#header": {
+        "props": {
+            "text": "**Free Shipping on orders over $10**",
+            "textPosition": "CENTER"
+        }
+    },
+    "vtex.menu@2.x:menu#small": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
             "menu-item#mixers",
             "menu-item#toasters",
             "menu-item#coffee"
         ]
     },
-    "vtex.menu@2.x:menu#electronics":{
-        "props":{"orientation": "vertical"},
-        "children":[
+    "vtex.menu@2.x:menu#electronics": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
             "menu-item#cameras",
             "menu-item#laptops",
             "menu-item#tvs"
-        ]        
-    },
-    "vtex.menu@2.x:submenu#small":{
-        "children": [
-            "vtex.menu@2.x:menu#small"
-        ]
-    },
-    "vtex.menu@2.x:submenu#major":{
-        "children": [
-            "vtex.menu@2.x:menu#major"
-        ]
-    },
-    "vtex.menu@2.x:submenu#electronics":{
-        "children": [
-            "vtex.menu@2.x:menu#electronics"
         ]
     }
 }
