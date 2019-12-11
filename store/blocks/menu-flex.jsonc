@@ -1,4 +1,14 @@
 {
+    "vtex.menu@2.x:menu#major": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#refrigerators",
+            "menu-item#ovens",
+            "menu-item#washers"
+        ]
+    },
     "flex-layout.col#img": {
         "children": [
             "image#menu",
